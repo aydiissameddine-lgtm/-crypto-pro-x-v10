@@ -1,0 +1,44 @@
+# ==========================
+# OKX API
+# ==========================
+
+API_KEY = "304b8a8e-e75b-468b-a6d7-30915b6dd3e7"
+SECRET = "432EE9EE8F57050FE4309B4734711048"
+PASSWORD = "Ia@.2026/"
+
+# ==========================
+# BOT SETTINGS
+# ==========================
+
+TIMEFRAME = "5m"
+
+SYMBOLS = [
+    "BTC/USDT:USDT",
+    "ETH/USDT:USDT",
+    "SOL/USDT:USDT",
+]
+
+CHECK_INTERVAL = 30
+
+TP_PERCENT = 0.01      # 1%
+SL_PERCENT = 0.005     # 0.5%
+
+MIN_CONFIDENCE = 85
+
+MAX_OPEN_TRADES = 2
+
+PAPER_MODE = True
+
+TELEGRAM_TOKEN = ""
+TELEGRAM_CHAT_ID = ""
+
+TELEGRAM_TOKEN = "8863201372:AAHQeG1gyfH0pmkzZP2Sk2YjzB-jMyeb-I0"
+TELEGRAM_CHAT_ID = ""
+
+MODE = "PAPER"
+TIMEFRAME = "1m"
+
+COOLDOWN_SECONDS = 300
+TP_PERCENT = 0.01
+SL_PERCENT = 0.005
+MIN_CONFIDENCE = 70
